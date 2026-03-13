@@ -80,6 +80,47 @@ a{
 
 }
 
+.author-information {
+  display: flex;
+  flex-direction: row;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  border-radius: 15px;
+  margin: 10px 20px;
+}
+
+.author-description {
+  margin: 10px 5px;
+}
+
+.author-text {
+  font-size: 24px;
+}
+
+.author-picture {
+  width: 300px;
+  height: auto;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.author-links {
+  display: flex;
+  gap: 40px;
+  justify-content: left;
+  padding: 20px;
+}
+
+.author-links a {
+  font-size: 60px;
+  color: #333;
+  transition:
+    transform 0.2s,
+    color 0.2s;
+}
+
+
+
+
 .view-more-section{
     text-align: center;
     
@@ -147,6 +188,7 @@ a{
     .character-list{
         grid-template-columns: repeat(1,1fr);
     }
+
 
 
 }
