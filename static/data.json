@@ -66,7 +66,7 @@
       "friends": "Tung Tung Tung Sahur",
       "enemies": "Silenzio Mortale",
       "description": "A whimsical yet chaotic spirit who sings ancient rhymes to bend reality.",
-      "bio": "No one knows where she came from. She skips through alleyways leaving trails of glitter, brainrot, and fragmented song lyrics. Her voice can crack concrete — and minds.",
+      "bio": "No one knows where she came from. She skips through alleyways leaving trails of glitter, brainrot, and fragmented song lyrics. Her voice can crack concrete and minds.",
       "abilities": "Reality distortion through chaotic lullabies. Can hypnotize or overload targets with nonsense.",
       "trivia": "Her favorite word is 'snigglepop' and she doesn’t know what it means either."
     },
@@ -94,7 +94,7 @@
       "friends": "Cappuccino Assassino",
       "enemies": "Anyone who ruins the rhythm",
       "description": "A graceful dancer with deadly precision and a calm killer instinct.",
-      "bio": "Ballerina Cappuccina blends ballet with brutality. Married to Cappuccino Assassino, she waltzes through battlefields in perfect form — every pirouette a death sentence.",
+      "bio": "Ballerina Cappuccina blends ballet with brutality. Married to Cappuccino Assassino, she waltzes through battlefields in perfect form every pirouette a death sentence.",
       "abilities": "Deadly footwork, razor-sharp toe-blades, and soundless movement. Can kill in silence and vanish in rhythm.",
       "trivia": "Choreographs every fight beforehand in her head."
     },
@@ -114,3 +114,4 @@
     }
   }
 }
+
