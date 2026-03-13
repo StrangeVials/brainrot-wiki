@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='css/header.css')}}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static',filename='css/index.css')}}"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <title>Author</title>
+  </head>
+  <body>
+    <header>
+      <div class="header" id="header-placeholder"></div>
+    </header>
+
+    <div class="author-information">
+      <div class="author-description">
+        <p class="author-text description">
+          Hi, my name is Brendan. I'm a 2nd year Computer Science student at the
+          University of Otago. I made this silly website to learn more about
+          JavaScript and fetching data from an API. I thought (and still do)
+          that Italian brainrot memes were really funny. All images were taken
+          from
+          <a
+            href="https://brainrothub.com/wiki/italian-brainrot"
+            target="_blank"
+            >Brainrot Hub</a
+          >. All audio taken from YouTube.
+        </p>
+        <p class="author-text description">
+          Want to see more of me? Check out the links below:
+        </p>
+        <div class="author-links">
+          <a
+            href="https://instagram.com/brendadannn_/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+
+          <a
+            href="https://github.com/StrangeVials"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-github"></i>
+          </a>
+
+          <a
+            href="https://linkedin.com/in/marcus-brendan-silva-8837662b9/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i class="fa-brands fa-linkedin"></i>
+          </a>
+        </div>
+      </div>
+      <div class="image">
+        <img
+          class="author-picture"
+          src="{{url_for('static',filename='images/20250502_155219.png')}}"
+          alt="A picture of the author"
+        />
+      </div>
+    </div>
+
+    <script src="{{url_for('static',filename='js/index.js')}}"></script>
+    <script src="{{url_for('static',filename='js/search.js')}}"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+  </body>
+</html>
