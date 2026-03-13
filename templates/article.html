@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/header.css')}}">
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/article.css')}}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <title id="document-title">Document</title>
+</head>
+<body class="article-body">
+    <header>
+        <div class="header" id="header-placeholder"></div>
+    </header>
+    <main>
+        
+        <div class="article">
+            <div class="article-layout">
+                <div class="article-content">
+                    <h1 id="article-name" class="title">Name</h1>
+                    <p id="description" class="article-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est, aut! Molestias deserunt reiciendis labore 
+                        doloremque ex officiis voluptatem nam impedit totam 
+                        blanditiis repellat cupiditate culpa, omnis quisquam architecto placeat quae.
+                    </p>
+                    <hr>
+                    <div class="main-content">
+                        <div class="biography">
+                            <h3>Biography</h3>
+                            <p id="biography">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda unde incidunt possimus, odio dolorem distinctio 
+                                reiciendis eaque enim fuga a praesentium 
+                                quis voluptatibus iusto autem consequatur illo, laboriosam voluptas quae.
+                            </p>
+                        </div>
+                        <div class="abilities">
+                            <h3>Abilities</h3>
+                            <p id="abilities">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda unde incidunt possimus, odio dolorem distinctio 
+                                reiciendis eaque enim fuga a praesentium 
+                                quis voluptatibus iusto autem consequatur illo, laboriosam voluptas quae.
+                            </p>
+                        </div>
+                        <div class="trivia">
+                            <h3>Trivia</h3>
+                            <p id="trivia">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda unde incidunt possimus, odio dolorem distinctio 
+                            reiciendis eaque enim fuga a praesentium 
+                            quis voluptatibus iusto autem consequatur illo, laboriosam voluptas quae.
+                            </p>
+                        </div>
+
+                        
+                    </div>
+                </div>
+                <div class="wiki-box">
+                    <h2 id="wiki-box-name" class="name">Name</h2>
+                    <div class="wiki-image-container">
+                        <img id="wiki-image" class="wiki-image" src="pictures/placeholder.jpg" alt="placeholder">
+                    </div>
+                    <div class="sound-effect-container">
+                        <button id="sound-effect" class="sound-effect">Play audio</button>
+                        <audio  id="audio"></audio>
+                    </div>
+                    
+                    <table class="info">
+                        <tr>
+                            <th>Nationality</th>
+                            <td id="nationality">Placeholder</td>
+                        </tr>
+                        <tr>
+                            <th>Age</th>
+                            <td id="age">35</td>
+                        </tr>
+                        <tr>
+                            <th>Friends</th>
+                            <td id="friends">Friend 1 <br>
+                                Friend 2
+                            </td>
+                            
+                        </tr>
+                        <tr>
+                            <th>Enemies</th>
+                            <td id="enemies">Enemy 1 <br>
+                                Enemy 2
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="{{url_for('static',filename='js/article.js')}}"></script>
+    <script src="{{url_for('static',filename='js/search.js')}}"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+</body>
+</html>
