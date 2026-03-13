@@ -17,7 +17,12 @@ def characters():
 @app.route('/partials/header')
 def header_partial():
     return render_template('partials/header.html')
+    
+@app.route('/author.html')
+def author():
+    return render_template('author.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
+
 
